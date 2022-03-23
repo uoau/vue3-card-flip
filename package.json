@@ -1,0 +1,55 @@
+{
+  "name": "vue3-card-flip",
+  "version": "1.0.0",
+  "description": "vue3 card filp",
+  "files": ["dist"],
+  "main": "./dist/vue3-card-flip.umd.js",
+  "module": "./dist/vue3-card-flip.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/vue3-card-flip.es.js",
+      "require": "./dist/vue3-card-flip.umd.js"
+    },
+    "./dist/style.css": {
+      "import": "./dist/style.css",
+      "require": "./dist/style.css"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/uoau/vue3-card-flip.git"
+  },
+  "dependencies": {
+    "vue": "3.2.31"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^1.9.3",
+    "@vitejs/plugin-vue-jsx": "^1.2.0",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "babel-eslint": "^10.1.0",
+    "eslint-config-prettier": "^8.3.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.20.0",
+    "highlight.js": "^11.3.1",
+    "prettier": "^2.4.1",
+    "prettier-eslint": "^13.0.0",
+    "sass": "^1.43.3",
+    "sass-loader": "^12.2.0",
+    "unplugin-auto-import": "^0.5.3",
+    "vite": "^2.6.4",
+    "eslint": "^8.4.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.3"
+  },
+  "author": "xux",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/uoau/vue3-card-flip/issues"
+  },
+  "homepage": "https://github.com/uoau/vue3-card-flip#readme"
+}
