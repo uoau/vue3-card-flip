@@ -12,7 +12,7 @@ npm i vue3-card-flip -S
 ```
 
 ## 使用
-```
+```vue
 <template>
     <CardFilp       
         class="card"
